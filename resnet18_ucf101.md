@@ -293,6 +293,14 @@ Namespace(batch_size=25, epochs=500, evaluate=False, lr=0.0005, resume='', start
 > Time [0.546] 
 > Loss [3.72328] Prec@1 [70.896] Prec@5 [91.197] 
 
+![train_resnet18_ucf101_tsn_var_rgb](./picture\train_resnet18_ucf101_tsn_var_rgb.png)
+
+![test_resnet18_ucf101_tsn_var_rgb](./picture\test_resnet18_ucf101_tsn_var_rgb.png)
+
+
+
+
+
 
 
 ​                                                          不同分割融合方案下resnet18**空域**识别准确率
@@ -328,6 +336,10 @@ Namespace(batch_size=32, epochs=500, evaluate=False, lr=0.01, resume='', start_e
 | 均值     | $76.315$ | 93.391 |
 | max    |          |        |
 | 方差     | 65.398   | 88.448 |
+
+![train_resnet18_ucf101_tsn_var](./picture/train_resnet18_ucf101_tsn_var2.png)
+
+![test_resnet18_ucf101_tsn_var](./picture\test_resnet18_ucf101_tsn_var.png)
 
 
 
